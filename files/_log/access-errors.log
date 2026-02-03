@@ -1,0 +1,6 @@
+2025-12-09 10:30:03 [2@LUCAS_L]
+User ID: 2 tried to access or perform an action on /glpi/front/user.form.php?id=12 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6454 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6547 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:253 displayFullPageForItem()
